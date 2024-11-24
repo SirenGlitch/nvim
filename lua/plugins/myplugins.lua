@@ -1,5 +1,16 @@
 local plugins = {
   {
+    "rcarriga/nvim-notify",
+    lazy = false,
+    config = function()
+      vim.notify = require "notify"
+      require("telescope").load_extension "notify"
+    end,
+    opts = function()
+      return require "configs.nvim-notify"
+    end,
+  },
+  {
     "kdheepak/lazygit.nvim",
     cmd = {
       "LazyGit",

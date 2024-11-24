@@ -1,5 +1,6 @@
 require "nvchad.mappings"
 require "configs.lazy-mappings"
+require "configs.telescope-map"
 
 -- add yours here
 
