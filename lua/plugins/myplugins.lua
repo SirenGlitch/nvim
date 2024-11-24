@@ -32,7 +32,7 @@ local plugins = {
     "mrcjkb/rustaceanvim",
     ft = "rust",
     opts = function()
-      return require "custom.configs.rustaceanvim"
+      return require "configs.rustaceanvim"
     end,
     config = function(_, opts)
       vim.g.rustaceanvim = opts
