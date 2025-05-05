@@ -14,6 +14,7 @@ return {
         "lua",
         "vimdoc",
         "python",
+        "hyprlang",
       },
     },
   },

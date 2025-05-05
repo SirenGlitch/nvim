@@ -70,6 +70,7 @@ M.mason = {
     "mypy",
     "ruff",
     "black",
+    "hyprls",
   },
 }
 

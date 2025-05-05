@@ -6,6 +6,7 @@ local servers = {
   bashls = {},
   yamlls = {},
   marksman = {},
+  hyprls = {},
   -- rust_analyzer = {
   -- settings = {
   -- ["rust-analyzer"] = {
