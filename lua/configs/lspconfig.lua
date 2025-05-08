@@ -7,6 +7,7 @@ local servers = {
   yamlls = {},
   marksman = {},
   hyprls = {},
+  jsonls = {},
   -- rust_analyzer = {
   -- settings = {
   -- ["rust-analyzer"] = {

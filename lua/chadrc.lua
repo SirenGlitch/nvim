@@ -64,13 +64,13 @@ M.mason = {
     "debugpy",
     "bash-debug-adapter",
     "stylua",
-    "prettier",
     "marksman",
     "rust-analyzer",
     "mypy",
     "ruff",
     "black",
     "hyprls",
+    "json-lsp",
   },
 }
 
