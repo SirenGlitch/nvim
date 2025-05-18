@@ -4,7 +4,8 @@ local M = {}
 ---------------- Base46 ----------------
 M.base46 = {
   theme = "catppuccin",
-  -- hl = highlights
+  transparency = "true",
+  ---- hl = highlights
   hl_override = {
 
     St_pos_text = {
