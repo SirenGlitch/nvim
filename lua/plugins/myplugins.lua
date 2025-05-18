@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "fladson/vim-kitty",
+    ft = "kitty",
+  },
+  {
     "mikavilpas/yazi.nvim",
     event = "VeryLazy",
     dependencies = {
