@@ -15,6 +15,8 @@ return {
         "vimdoc",
         "python",
         "hyprlang",
+        "c",
+        "cpp",
       },
     },
   },
