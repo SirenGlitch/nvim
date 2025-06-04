@@ -8,6 +8,7 @@ local servers = {
   marksman = {},
   hyprls = {},
   jsonls = {},
+  clangd = {},
   -- rust_analyzer = {
   -- settings = {
   -- ["rust-analyzer"] = {
