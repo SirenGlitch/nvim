@@ -1,5 +1,7 @@
 require "nvchad.options"
 
-local o = vim.o
+local options = {}
 
-o.colorcolumn = "80"
+for k, v in pairs(options) do
+  vim.opt[k] = v
+end
