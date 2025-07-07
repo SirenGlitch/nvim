@@ -9,6 +9,7 @@ local servers = {
   hyprls = {},
   jsonls = {},
   clangd = {},
+  qmlls = {},
   -- rust_analyzer = {
   -- settings = {
   -- ["rust-analyzer"] = {
