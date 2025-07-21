@@ -1,5 +1,12 @@
 local plugins = {
   {
+    "michaelrommel/nvim-silicon",
+    cmd = "Silicon",
+    opts = function()
+      return require "configs.nvim-silicon"
+    end,
+  },
+  {
     "MeanderingProgrammer/render-markdown.nvim",
     dependencies = {
       "nvim-treesitter/nvim-treesitter",

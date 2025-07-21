@@ -1,6 +1,7 @@
 require "nvchad.mappings"
 require "configs.lazy-mappings"
 require "configs.telescope-map"
+require "configs.silicon-mappings"
 
 -- add yours here
 
