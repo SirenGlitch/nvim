@@ -72,6 +72,7 @@ M.mason = {
     "black",
     "hyprls",
     "json-lsp",
+    "clang-format",
   },
 }
 
