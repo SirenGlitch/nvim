@@ -1,5 +1,16 @@
 local plugins = {
   {
+    "jay-babu/mason-nvim-dap.nvim",
+    event = "VeryLazy",
+    dependencies = {
+      "williamboman/mason.nvim",
+      "mfussenegger/nvim-dap",
+    },
+    opts = {
+      handlers = {},
+    },
+  },
+  {
     "michaelrommel/nvim-silicon",
     cmd = "Silicon",
     opts = function()
@@ -160,6 +171,7 @@ local plugins = {
   },
   {
     "rcarriga/nvim-dap-ui",
+    event = "VeryLazy",
     dependencies = {
       "mfussenegger/nvim-dap",
       "nvim-neotest/nvim-nio",

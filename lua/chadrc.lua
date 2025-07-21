@@ -73,6 +73,7 @@ M.mason = {
     "hyprls",
     "json-lsp",
     "clang-format",
+    "codelldb",
   },
 }
 
