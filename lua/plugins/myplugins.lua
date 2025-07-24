@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "seandewar/actually-doom.nvim",
+    cmd = "Doom",
+  },
+  {
     "jay-babu/mason-nvim-dap.nvim",
     event = "VeryLazy",
     dependencies = {
